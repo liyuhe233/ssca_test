@@ -10,4 +10,9 @@ public class test_ssca {
     String password = request.getParameter("password");
     String sql = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";
     ResultSet result = statement.executeQuery(sql);
+
+    private void createLessonsForUser(WebGoatUser webGoatUser) {
+        jdbcTemplate.execute("CREATE SCHEMA \"" + webGoatUser.getUsername() + "\" authorization dba");
+        flywayLessons.apply(webGoatUser.getUsername()).migrate();
+    }
 }
