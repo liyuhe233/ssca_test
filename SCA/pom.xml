@@ -34,13 +34,13 @@
 <!--            <scope>compile</scope>-->
 <!--        </dependency>-->
 <!--        低危组件-->
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-<!--            <version>27.0.1-android</version>-->
-            <version>32.1.1-android</version>
-            <scope>system</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.google.guava</groupId>-->
+<!--            <artifactId>guava</artifactId>-->
+<!--&lt;!&ndash;            <version>27.0.1-android</version>&ndash;&gt;-->
+<!--            <version>32.1.1-android</version>-->
+<!--            <scope>system</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>
