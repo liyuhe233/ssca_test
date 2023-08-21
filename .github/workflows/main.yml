@@ -1,7 +1,7 @@
 name: "T-Sec Xcheck"
 env:
-  SERVER_URL: "http://1.13.0.211:8080"
-  ACTION_TYPE: "SCA"
+  SERVER_URL: "http://1.13.0.211:8081"
+  ACTION_TYPE: "SSCA"
 on:
   push:
     branches:
